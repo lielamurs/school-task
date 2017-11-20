@@ -6,8 +6,8 @@
 Visi uzdevumi būs saistīti ar kādu no git komandām. 
 Visu uzdevumu izvadītais teksts no konsoles ir jāsaglabā pēc šadiem nosacījumiem : 
 
-..* Katrs uzdevumuma teksts ir savā commitā.
-..* Uzvevumi ir jaatdala ar tukšu līniju starpā 
+  * Katrs uzdevumuma teksts ir savā commitā.
+  * Uzvevumi ir jaatdala ar tukšu līniju starpā 
 
 # Uzdevumi 
 
@@ -19,6 +19,6 @@ Pēc git iegūšanas un github profila izveides, git ir jakonfigurē izmantošan
 To darama ar kommandām 
 
 ```
-$ git config --global user.name "Tavs vārds"
 $ git config --global user.email tavs@epasts.com
+$ git config --global user.name "Tavs vārds"
 ```
