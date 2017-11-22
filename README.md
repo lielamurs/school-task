@@ -65,7 +65,7 @@ javascript is kuul
 ```
 Uzdevums ir atrast, kļūdu šajā uzdevuma tekstā un to izlabot izmantojot git blame komandu. 
 
->! Tiem kas nesaprot. Javascript nav kuul. Tā rindiņa ir jaizmaina.
+> Tiem kas nesaprot. Javascript nav kuul. Tā rindiņa ir jaizmaina, bet git blame komanda tāpat ir jaizmanto, jo jums vajag comit hash.
 
 Comitā ir jānorāda, hash comitam, kurā bija izveidota šī ķļūda.
 Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```piektais uzdevums``` un japusho uz github.com.
