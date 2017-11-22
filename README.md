@@ -69,3 +69,17 @@ Uzdevums ir atrast, kļūdu šajā uzdevuma tekstā un to izlabot izmantojot git
 
 Comitā ir jānorāda, hash comitam, kurā bija izveidota šī ķļūda.
 Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```piektais uzdevums``` un japusho uz github.com.
+
+## 6.git show
+
+Jaizvada informācija par kādu commit izmantojot ``git show --pretty=format``` komandu ar pašizveidotu preaty formātu.
+Info par to [šeit](https://git-scm.com/docs/git-show)
+
+Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```sestais uzdevums``` un japusho uz github.com.
+
+## 7.git diff
+
+Ar kommandu ```git diff``` var apskatīt izmaiņas starp commitiem, kas ir laba informācija, bet var arī veidot patch failus. Tas ir arī uzdevums izveidot jaunu failu, tajā veikt izmaiņas ar ```git diff HEAD > save.patch```  izveidot jaunu patch failu un šo failu comitot, bet ne failu ko izveidoja.
+
+Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```septītais uzdevums``` un japusho uz github.com.
+
