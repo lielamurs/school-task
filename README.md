@@ -57,3 +57,15 @@ Commit description: <Commit apraksts>
 Long checksum : <checksum>
 Short checksum : <checksum>
 ```
+
+## 5.git blame
+
+```
+javascript is kuul
+```
+Uzdevums ir atrast, kļūdu šajā uzdevuma tekstā un to izlabot izmantojot git blame komandu. 
+
+>! Tiem kas nesaprot. Javascript nav kuul. Tā rindiņa ir jaizmaina.
+
+Comitā ir jānorāda, hash comitam, kurā bija izveidota šī ķļūda.
+Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```piektais uzdevums``` un japusho uz github.com.
