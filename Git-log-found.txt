@@ -1,0 +1,5 @@
+Datums : 22-11-2017
+Branch : origin/secret-branch
+Commit description: Šeit ir paslēpta speciālā ziņa kas jātrod visiem
+Long checksum : 033e03a5daeb62c1f991f458f2726fdfc35a16ed 
+Short checksum : 033e03a
