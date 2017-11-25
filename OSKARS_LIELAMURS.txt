@@ -1,2 +1,4 @@
 origin  https://github.com/lielamurs/school-task.git (fetch)
 origin  https://github.com/lielamurs/school-task.git (push)
+
+Switched to a new branch 'TESTERIS'
