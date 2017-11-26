@@ -193,3 +193,16 @@ index 9f3087d..3312c9b 100644
 +d4907272 (zemzale         2017-11-22 11:31:36 +0200 83)
 +d4907272 (zemzale         2017-11-22 11:31:36 +0200 84) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```septītais uzdevums``` un japusho uz github.com.
 +d4907272 (zemzale         2017-11-22 11:31:36 +0200 85)
+
+touch Kartupelis.txt
+git add Kartupelis.txt
+git diff HEAD > save.patch
+git rm Kartupelis.txt -f
+rm 'Kartupelis.txt'
+git add save.patch
+git commit save.patch
+warning: LF will be replaced by CRLF in save.patch.
+The file will have its original line endings in your working directory.
+[TESTERIS 1eab6ce] Confused
+1 file changed, 8 insertions(+)
+create mode 100644 save.patch
