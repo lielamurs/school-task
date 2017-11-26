@@ -1,0 +1,208 @@
+origin  https://github.com/lielamurs/school-task.git (fetch)
+origin  https://github.com/lielamurs/school-task.git (push)
+
+Switched to a new branch 'TESTERIS'
+
+$ git blame README.md
+^81be022 (Alberts Zemzale 2017-11-20 21:32:04 +0200  1) # school-task
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  2) Šis ir repo kuru jūs visi izmantosiet sava uzdevuma izpildei
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  3)
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  4) # Uzdevumu nosacījumi
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  5)
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  6) Visi uzdevumi būs saistīti ar kādu no git komandām.
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  7) Visu uzdevumu izvadītais teksts no konsoles ir jāsaglabā pēc šadiem nosacījumiem :
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  8)
+12cb0723 (Alberts Zemzale 2017-11-20 21:57:41 +0200  9)   * Katrs uzdevumuma teksts ir savā commitā.
+12cb0723 (Alberts Zemzale 2017-11-20 21:57:41 +0200 10)   * Uzvevumi ir jaatdala ar tukšu līniju starpā
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 11)
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 12) # Uzdevumi
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 13)
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 14) ## 0.Sagatavošanās
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 15)
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 16) Visu jāsāk ar git lejuplādi [šeit](https://www.git-scm.com/download), un [github](https://github.com/join?source=header-home) profila izveidi.
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 17)
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 18) Pēc git iegūšanas un github profila izveides, git ir jakonfigurē izmantošanai.
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 19) To darama ar kommandām
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 20)
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 21) ```
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 22) $ git config --global user.email tavs@epasts.com
+12cb0723 (Alberts Zemzale 2017-11-20 21:57:41 +0200 23) $ git config --global user.name "Tavs vārds"
+51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 24) ```
+54fa8069 (zemzale         2017-11-22 10:27:32 +0200 25)
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 26) ## 1.git clone
+54fa8069 (zemzale         2017-11-22 10:27:32 +0200 27)
+54fa8069 (zemzale         2017-11-22 10:27:32 +0200 28) Šo mēs būsim izdarījuši jau stundas laikā, bet ja nebiji stundā ir jaizdara 3 lietas
+e4827eeb (zemzale         2017-11-22 10:29:08 +0200 29)   1. Jauztaisa šī repo forks
+e4827eeb (zemzale         2017-11-22 10:29:08 +0200 30)   2. Jauztaisa savs repo lokālais klons, lai var izmantot
+e4827eeb (zemzale         2017-11-22 10:29:08 +0200 31)   3. Japievieno šis repo kā upstream, lai var turēt līdzi izmaiņām
+328b867b (zemzale         2017-11-22 10:43:23 +0200 32)
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 33) ## 2.git add
+328b867b (zemzale         2017-11-22 10:43:23 +0200 34)
+328b867b (zemzale         2017-11-22 10:43:23 +0200 35) Jaizveido fails kurā visa informācija tiks glabāta. Nosaukumam ir jābūt ```VARDS_UZVARDS```. Ja tas nebūs izpildīts, uzdevumu nevarēs tālāk pildīt un es nemaz nemēģināšu labot.
+328b867b (zemzale         2017-11-22 10:43:23 +0200 36)
+328b867b (zemzale         2017-11-22 10:43:23 +0200 37) Šajā failā ir jāpievieno kommandas ```git remote -v``` izvads.
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 38) Pēc tam šis fails ir jāpievieno jaunā commita ar ziņu ```Otrais uzdevums``` un japusho uz github.com.
+328b867b (zemzale         2017-11-22 10:43:23 +0200 39)
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 40) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā .
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 41)
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 42) ## 3.git branch
+328b867b (zemzale         2017-11-22 10:43:23 +0200 43)
+328b867b (zemzale         2017-11-22 10:43:23 +0200 44) Jaizveido jauns git branch ar commandu ```git checkout -b <branch-name>``` vai ```git branch <branch-name> && git checkout <branch-name>```. ```<branch-name>``` var būt jebkāds sakarīgs topic nosaukums jaunajam branch uz kura visa turpmākā darbība tiks balstīta.
+328b867b (zemzale         2017-11-22 10:43:23 +0200 45)
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 46) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```Trešais uzdevums``` un japusho uz github.com.
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 47)
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 48) ## 4.git log
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 49)
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 50) Izmantojot ```git log``` komandu ir jātrod, kad šis uzdevums tika pievienots, kuram branch tas piederēja un kāds bija aprakst šim commitam, un commita checksumas, garā un īsā.
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 51) Visa inforācija par šo komandu atrodama [šeit](https://git-scm.com/docs/git-log).
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 52) To visu informāciju ir jāpievieno jaunā failā ar nosaukumu ```Git-log-found.txt``` un jāpievieno visa prasītā informācija sekojošā formāta :
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 53) ```
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 54) Datums : <dd-mm-yyyy>
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 55) Branch : <branch-nosaukums>
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 56) Commit description: <Commit apraksts>
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 57) Long checksum : <checksum>
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 58) Short checksum : <checksum>
+1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 59) ```
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 60)
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 61) ## 5.git blame
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 62)
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 63) ```
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 64) javascript is kuul
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 65) ```
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 66) Uzdevums ir atrast, kļūdu šajā uzdevuma tekstā un to izlabot izmantojot git blame komandu.
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 67)
+70df3519 (zemzale         2017-11-22 11:14:48 +0200 68) > Tiem kas nesaprot. Javascript nav kuul. Tā rindiņa ir jaizmaina, bet git blame komanda tāpat ir jaizmanto, jo jums vajag comit hash.
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 69)
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 70) Comitā ir jānorāda, hash comitam, kurā bija izveidota šī ķļūda.
+4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 71) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```piektais uzdevums``` un japusho uz github.com.
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 72)
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 73) ## 6.git show
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 74)
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 75) Jaizvada informācija par kādu commit izmantojot ``git show --pretty=format``` komandu ar pašizveidotu preaty formātu.
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 76) Info par to [šeit](https://git-scm.com/docs/git-show)
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 77)
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 78) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```sestais uzdevums``` un japusho uz github.com.
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 79)
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 80) ## 7.git diff
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 81)
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 82) Ar kommandu ```git diff``` var apskatīt izmaiņas starp commitiem, kas ir laba informācija, bet var arī veidot patch failus. Tas ir arī uzdevums izveidot jaunu failu, tajā veikt izmaiņas ar ```git diff HEAD > save.patch```  izveidot jaunu patch failu un šo failu comitot, bet ne failu ko izveidoja.
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 83)
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 84) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```septītais uzdevums``` un japusho uz github.com.
+d4907272 (zemzale         2017-11-22 11:31:36 +0200 85)
+
+$ git show --pretty="%H: Commited by : %cN %cD %n %s. Commit notes: %n %N"
+bbc8abc95f01522c1c9d2adf699fe754ac6f466c: Commited by : Oskars Sun, 26 Nov 2017 13:06:47 +0200
+ Piektais uzdevums. Commit notes:
+
+
+diff --git a/OSKARS_LIELAMURS.txt b/OSKARS_LIELAMURS.txt
+index 9f3087d..3312c9b 100644
+--- a/OSKARS_LIELAMURS.txt
++++ b/OSKARS_LIELAMURS.txt
+@@ -1,4 +1,92 @@
+ origin  https://github.com/lielamurs/school-task.git (fetch)
+ origin  https://github.com/lielamurs/school-task.git (push)
+
+-Switched to a new branch 'TESTERIS'
+\ No newline at end of file
++Switched to a new branch 'TESTERIS'
++
++$ git blame README.md
++^81be022 (Alberts Zemzale 2017-11-20 21:32:04 +0200  1) # school-task
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  2) Šis ir repo kuru jūs visi izmantosiet sava uzdevuma izpildei
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  3)
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  4) # Uzdevumu nosacījumi
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  5)
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  6) Visi uzdevumi būs saistīti ar kādu no git komandām.
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  7) Visu uzdevumu izvadītais teksts no konsoles ir jāsaglabā pēc šadiem nosacījumiem :
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200  8)
++12cb0723 (Alberts Zemzale 2017-11-20 21:57:41 +0200  9)   * Katrs uzdevumuma teksts ir savā commitā.
++12cb0723 (Alberts Zemzale 2017-11-20 21:57:41 +0200 10)   * Uzvevumi ir jaatdala ar tukšu līniju starpā
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 11)
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 12) # Uzdevumi
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 13)
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 14) ## 0.Sagatavošanās
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 15)
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 16) Visu jāsāk ar git lejuplādi [šeit](https://www.git-scm.com/download), un [github](https://github.com/join?source=header-home) profila izveidi.
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 17)
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 18) Pēc git iegūšanas un github profila izveides, git ir jakonfigurē izmantošanai.
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 19) To darama ar kommandām
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 20)
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 21) ```
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 22) $ git config --global user.email tavs@epasts.com
++12cb0723 (Alberts Zemzale 2017-11-20 21:57:41 +0200 23) $ git config --global user.name "Tavs vārds"
++51ca92a3 (Alberts Zemzale 2017-11-20 21:56:30 +0200 24) ```
++54fa8069 (zemzale         2017-11-22 10:27:32 +0200 25)
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 26) ## 1.git clone
++54fa8069 (zemzale         2017-11-22 10:27:32 +0200 27)
++54fa8069 (zemzale         2017-11-22 10:27:32 +0200 28) Šo mēs būsim izdarījuši jau stundas laikā, bet ja nebiji stundā ir jaizdara 3 lietas
++e4827eeb (zemzale         2017-11-22 10:29:08 +0200 29)   1. Jauztaisa šī repo forks
++e4827eeb (zemzale         2017-11-22 10:29:08 +0200 30)   2. Jauztaisa savs repo lokālais klons, lai var izmantot
++e4827eeb (zemzale         2017-11-22 10:29:08 +0200 31)   3. Japievieno šis repo kā upstream, lai var turēt līdzi izmaiņām
++328b867b (zemzale         2017-11-22 10:43:23 +0200 32)
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 33) ## 2.git add
++328b867b (zemzale         2017-11-22 10:43:23 +0200 34)
++328b867b (zemzale         2017-11-22 10:43:23 +0200 35) Jaizveido fails kurā visa informācija tiks glabāta. Nosaukumam ir jābūt ```VARDS_UZVARDS```. Ja tas nebūs izpildīts, uzdevumu nevarēs tālāk pildīt un es nemaz nemēģināšu labot.
++328b867b (zemzale         2017-11-22 10:43:23 +0200 36)
++328b867b (zemzale         2017-11-22 10:43:23 +0200 37) Šajā failā ir jāpievieno kommandas ```git remote -v``` izvads.
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 38) Pēc tam šis fails ir jāpievieno jaunā commita ar ziņu ```Otrais uzdevums``` un japusho uz github.com.
++328b867b (zemzale         2017-11-22 10:43:23 +0200 39)
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 40) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā .
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 41)
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 42) ## 3.git branch
++328b867b (zemzale         2017-11-22 10:43:23 +0200 43)
++328b867b (zemzale         2017-11-22 10:43:23 +0200 44) Jaizveido jauns git branch ar commandu ```git checkout -b <branch-name>``` vai ```git branch <branch-name> && git checkout <branch-name>```. ```<branch-name>``` var būt jebkāds sakarīgs topic nosaukums jaunajam branch uz kura visa turpmākā darbība tiks balstīta.
++328b867b (zemzale         2017-11-22 10:43:23 +0200 45)
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 46) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```Trešais uzdevums``` un japusho uz github.com.
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 47)
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 48) ## 4.git log
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 49)
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 50) Izmantojot ```git log``` komandu ir jātrod, kad šis uzdevums tika pievienots, kuram branch tas piederēja un kāds bija aprakst šim commitam, un commita checksumas, garā un īsā.
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 51) Visa inforācija par šo komandu atrodama [šeit](https://git-scm.com/docs/git-log).
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 52) To visu informāciju ir jāpievieno jaunā failā ar nosaukumu ```Git-log-found.txt``` un jāpievieno visa prasītā informācija sekojošā formāta :
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 53) ```
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 54) Datums : <dd-mm-yyyy>
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 55) Branch : <branch-nosaukums>
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 56) Commit description: <Commit apraksts>
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 57) Long checksum : <checksum>
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 58) Short checksum : <checksum>
++1fb34b79 (zemzale         2017-11-22 11:01:36 +0200 59) ```
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 60)
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 61) ## 5.git blame
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 62)
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 63) ```
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 64) javascript is kuul
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 65) ```
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 66) Uzdevums ir atrast, kļūdu šajā uzdevuma tekstā un to izlabot izmantojot git blame komandu.
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 67)
++70df3519 (zemzale         2017-11-22 11:14:48 +0200 68) > Tiem kas nesaprot. Javascript nav kuul. Tā rindiņa ir jaizmaina, bet git blame komanda tāpat ir jaizmanto, jo jums vajag comit hash.
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 69)
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 70) Comitā ir jānorāda, hash comitam, kurā bija izveidota šī ķļūda.
++4606d3f2 (zemzale         2017-11-22 11:12:19 +0200 71) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```piektais uzdevums``` un japusho uz github.com.
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 72)
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 73) ## 6.git show
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 74)
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 75) Jaizvada informācija par kādu commit izmantojot ``git show --pretty=format``` komandu ar pašizveidotu preaty formātu.
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 76) Info par to [šeit](https://git-scm.com/docs/git-show)
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 77)
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 78) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```sestais uzdevums``` un japusho uz github.com.
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 79)
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 80) ## 7.git diff
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 81)
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 82) Ar kommandu ```git diff``` var apskatīt izmaiņas starp commitiem, kas ir laba informācija, bet var arī veidot patch failus. Tas ir arī uzdevums izveidot jaunu failu, tajā veikt izmaiņas ar ```git diff HEAD > save.patch```  izveidot jaunu patch failu un šo failu comitot, bet ne failu ko izveidoja.
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 83)
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 84) Visu komandu izvade ir jāiekopē failā ```VARDS_UZVARDS``` un jaizveido jaunā comitā ar ziņu ```septītais uzdevums``` un japusho uz github.com.
++d4907272 (zemzale         2017-11-22 11:31:36 +0200 85)
+
+touch Kartupelis.txt
+git add Kartupelis.txt
+git diff HEAD > save.patch
+git rm Kartupelis.txt -f
+rm 'Kartupelis.txt'
+git add save.patch
+git commit save.patch
+warning: LF will be replaced by CRLF in save.patch.
+The file will have its original line endings in your working directory.
+[TESTERIS 1eab6ce] Confused
+1 file changed, 8 insertions(+)
+create mode 100644 save.patch

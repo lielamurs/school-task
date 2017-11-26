@@ -23,6 +23,7 @@ $ git config --global user.email tavs@epasts.com
 $ git config --global user.name "Tavs vārds"
 ```
 
+
 ## 1.git clone
 
 Šo mēs būsim izdarījuši jau stundas laikā, bet ja nebiji stundā ir jaizdara 3 lietas
