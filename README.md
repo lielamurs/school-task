@@ -61,7 +61,7 @@ Short checksum : <checksum>
 ## 5.git blame
 
 ```
-javascript is kuul
+NEVER MENTION THAT SHIT AGAIN!!!!
 ```
 Uzdevums ir atrast, kļūdu šajā uzdevuma tekstā un to izlabot izmantojot git blame komandu. 
 
